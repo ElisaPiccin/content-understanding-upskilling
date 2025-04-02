@@ -1,0 +1,23 @@
+{
+	"templateId": "image-2024-12-01",
+	"fieldSchema": {
+		"fields": {
+			"ContainsPerson": {
+				"type": "boolean",
+				"method": "generate",
+				"description": "Indicate if the photo contains people in it."
+			},
+			"Outdoor": {
+				"type": "boolean",
+				"method": "generate",
+				"description": "Indicate if the photo is taken in an outdoor place or not."
+			},
+			"Description": {
+				"type": "string",
+				"method": "generate",
+				"description": "A one-sentence description of the picture."
+			}
+		},
+		"definitions": {}
+	}
+}
