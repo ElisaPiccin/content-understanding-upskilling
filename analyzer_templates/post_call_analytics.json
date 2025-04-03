@@ -1,0 +1,88 @@
+{
+	"templateId": "postCallAnalytics-2024-12-01",
+	"fieldSchema": {
+		"fields": {
+			"Summary": {
+				"type": "string",
+				"method": "generate",
+				"description": "A one-paragraph summary"
+			},
+			"Topics": {
+				"type": "array",
+				"items": {
+					"type": "string",
+					"method": "generate"
+				},
+				"method": "generate",
+				"description": "Top 5 topics mentioned"
+			},
+			"Companies": {
+				"type": "array",
+				"items": {
+					"type": "string",
+					"method": "generate"
+				},
+				"method": "generate",
+				"description": "List of companies mentioned"
+			},
+			"People": {
+				"type": "array",
+				"items": {
+					"type": "object",
+					"method": "generate",
+					"properties": {
+						"Name": {
+							"type": "string",
+							"method": "generate",
+							"description": "Person's name"
+						},
+						"Role": {
+							"type": "string",
+							"method": "generate",
+							"description": "Person's title/role"
+						}
+					}
+				},
+				"method": "generate",
+				"description": "List of people mentioned"
+			},
+			"Sentiment": {
+				"type": "string",
+				"method": "classify",
+				"description": "Overall sentiment",
+				"enum": [
+					"Positive",
+					"Neutral",
+					"Negative"
+				]
+			},
+			"Categories": {
+				"type": "array",
+				"items": {
+					"type": "string",
+					"method": "classify",
+					"enum": [
+						"Agriculture",
+						"Business",
+						"Finance",
+						"Health",
+						"Insurance",
+						"Mining",
+						"Pharmaceutical",
+						"Retail",
+						"Technology",
+						"Transportation"
+					]
+				},
+				"method": "generate",
+				"description": "List of relevant categories"
+			},
+			"Sintesi": {
+				"type": "string",
+				"method": "generate",
+				"description": "Una sintesi del messaggio lunga un paragrafo."
+			}
+		},
+		"definitions": {}
+	}
+}
