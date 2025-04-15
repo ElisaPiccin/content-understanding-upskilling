@@ -1,0 +1,78 @@
+{
+    "description": "Invoice analyzer template",
+    "scenario": "document",
+    "config": {
+      "returnDetails": true
+    },
+    "fieldSchema": {
+		"fields": {
+			"InvoiceNr": {
+				"type": "string",
+				"method": "extract",
+				"description": "The ID of the invoice"
+			},
+			"InvoiceDate": {
+				"type": "date",
+				"method": "extract",
+				"description": "The date when the invoice was issued"
+			},
+			"DueDate": {
+				"type": "date",
+				"method": "extract",
+				"description": "The invoice due date"
+			},
+			"Company": {
+				"type": "string",
+				"method": "extract",
+				"description": "The name of the company issuing the invoice"
+			},
+			"InvoiceItems": {
+				"type": "array",
+				"items": {
+					"type": "object",
+					"method": "extract",
+					"properties": {
+						"ItemCode": {
+							"type": "string",
+							"method": "extract",
+							"description": "The line item code"
+						},
+						"ItemName": {
+							"type": "string",
+							"method": "extract",
+							"description": "The line item description"
+						},
+						"Quantity": {
+							"type": "integer",
+							"method": "extract",
+							"description": "The quantity with respect to the line item"
+						},
+						"UM": {
+							"type": "string",
+							"method": "extract",
+							"description": "The unit measure with respect to the quantity of the line item"
+						},
+						"TotalAmount": {
+							"type": "number",
+							"method": "extract",
+							"description": "The total line amount, tax included"
+						}
+					}
+				},
+				"method": "generate",
+				"description": "The invoice lines with their details"
+			},
+			"AmountDue": {
+				"type": "number",
+				"method": "extract",
+				"description": "The total amount due, tax included"
+			},
+			"CustomerID": {
+				"type": "string",
+				"method": "extract",
+				"description": "The ID of the Customer if present, otherwise use a fixed value \"N/A\""
+			}
+		},
+		"definitions": {}
+	}
+  }

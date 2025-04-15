@@ -1,0 +1,6 @@
+requests
+azure-identity
+python-dotenv
+Pillow
+ipykernel
+pandas
