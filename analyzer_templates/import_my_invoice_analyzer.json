@@ -1,5 +1,5 @@
 {
-	"templateId": "document-2024-12-01",
+	"scenario": "document",
 	"fieldSchema": {
 		"fields": {
 			"InvoiceNr": {

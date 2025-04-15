@@ -1,5 +1,5 @@
 {
-	"templateId": "image-2024-12-01",
+	"scenario": "image",
     "fieldSchema": {
         "name": "ChartsAndDiagrams",
         "descriptions": "Structured information from charts and diagrams.",

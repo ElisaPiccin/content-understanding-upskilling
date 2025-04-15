@@ -1,0 +1,11 @@
+{
+    "description": "Sample invoice analyzer",
+    "scenario": "document",
+    "config": {
+      "returnDetails": true
+    },
+    "fieldSchema": {
+      "fields": {
+      }
+    }
+  }
