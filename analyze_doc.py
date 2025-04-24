@@ -1,4 +1,7 @@
 """
+IMPORTANT:
+assign the user who runs this script the "Cognitive Services User" role in the Azure portal for the Azure AI Services resource.
+
 This script performs the following steps:
 
 1. Submits an HTTP POST request to the Content Understanding endpoint to analyze a document using the 'travel-insurance-analyzer'.
