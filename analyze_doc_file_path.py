@@ -31,8 +31,8 @@ endpoint = os.getenv('AZURE_CU_ENDPOINT')
 key = os.getenv('AZURE_CU_KEY')
 
 analyzer_name = os.getenv('AZURE_CU_ANALYZER_NAME')  # e.g. 'my-invoice-analyzer'
-document_url = 'https://raw.githubusercontent.com/Azure/azure-sdk-for-python/main/sdk/formrecognizer/azure-ai-formrecognizer/tests/sample_forms/forms/Invoice_1.pdf' 
-# document_url = 'assets/docs/invoice-logic-apps-tutorial.pdf'  # Local file path or URL
+# document_url = 'https://raw.githubusercontent.com/Azure/azure-sdk-for-python/main/sdk/formrecognizer/azure-ai-formrecognizer/tests/sample_forms/forms/Invoice_1.pdf' 
+document_url = 'assets/docs/invoice-logic-apps-tutorial.pdf'  # Local file path or URL
 cu_version = '2024-12-01-preview'
 
 # Determine if the document_url is a local file path or a URL
