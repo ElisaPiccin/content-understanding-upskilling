@@ -36,8 +36,9 @@ def main():
         aad_token=token_provider,
         # Insert the analyzer name.
         analyzer_id=os.getenv("AZURE_CU_ANALYZER_NAME"),
-        # Insert the supported file types of the analyzer.
-        file_location="https://raw.githubusercontent.com/Azure/azure-sdk-for-python/main/sdk/formrecognizer/azure-ai-formrecognizer/tests/sample_forms/forms/Invoice_1.pdf",
+        # Insert the file to analyze (could be a URL or a local file).
+        # file_location="https://raw.githubusercontent.com/Azure/azure-sdk-for-python/main/sdk/formrecognizer/azure-ai-formrecognizer/tests/sample_forms/forms/Invoice_1.pdf",
+        file_location = 'assets/docs/invoice-logic-apps-tutorial.pdf',
     )
     client = AzureContentUnderstandingClient(
         settings.endpoint,
@@ -45,6 +46,7 @@ def main():
         # subscription_key=settings.subscription_key,
         token_provider=token_provider, #settings.token_provider,
     )
+    print(f"Analyzing file {settings.file_location} with analyzer: {settings.analyzer_id}")
     response = client.begin_analyze(settings.analyzer_id, settings.file_location)
     result = client.poll_result(
         response,
