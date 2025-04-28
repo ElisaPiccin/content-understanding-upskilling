@@ -1,10 +1,10 @@
 {
-  "id": "c77e751a-831d-4c42-b85d-93ab71f57b54",
+  "id": "8042700f-1b1a-435d-bd07-42ea3046899a",
   "status": "Succeeded",
   "result": {
     "analyzerId": "content-extraction-analyzer",
     "apiVersion": "2024-12-01-preview",
-    "createdAt": "2025-04-15T14:39:51Z",
+    "createdAt": "2025-04-28T14:13:04Z",
     "warnings": [],
     "contents": [
       {

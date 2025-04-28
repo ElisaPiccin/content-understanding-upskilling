@@ -1,10 +1,10 @@
 {
-  "id": "e26c8d2d-25cc-4cf0-af85-a8f94b1a16b7",
+  "id": "ccfc0171-3ed7-4f7b-8a70-5e0c8cf17dbe",
   "status": "Succeeded",
   "result": {
     "analyzerId": "field-extraction-analyzer",
     "apiVersion": "2024-12-01-preview",
-    "createdAt": "2025-04-15T14:40:45Z",
+    "createdAt": "2025-04-28T14:13:36Z",
     "warnings": [],
     "contents": [
       {
@@ -23,96 +23,7 @@
             "source": "D(1,0.573,0.6581,2.3353,0.6581,2.3353,0.8958,0.573,0.8958)"
           },
           "Items": {
-            "type": "array",
-            "valueArray": [
-              {
-                "type": "object",
-                "valueObject": {
-                  "Description": {
-                    "type": "string",
-                    "valueString": "Consulting Services",
-                    "spans": [
-                      {
-                        "offset": 909,
-                        "length": 19
-                      }
-                    ],
-                    "confidence": 0.964,
-                    "source": "D(1,2.3264,5.6731,3.6413,5.6731,3.6413,5.8401,2.3264,5.8401)"
-                  },
-                  "Amount": {
-                    "type": "number",
-                    "valueNumber": 60,
-                    "spans": [
-                      {
-                        "offset": 993,
-                        "length": 6
-                      }
-                    ],
-                    "confidence": 0.995,
-                    "source": "D(1,7.4507,5.6687,7.93,5.6687,7.93,5.8323,7.4507,5.8323)"
-                  }
-                }
-              },
-              {
-                "type": "object",
-                "valueObject": {
-                  "Description": {
-                    "type": "string",
-                    "valueString": "Document Fee",
-                    "spans": [
-                      {
-                        "offset": 1052,
-                        "length": 12
-                      }
-                    ],
-                    "confidence": 0.987,
-                    "source": "D(1,2.3256,5.976,3.3258,5.976,3.3258,6.1319,2.3256,6.1319)"
-                  },
-                  "Amount": {
-                    "type": "number",
-                    "valueNumber": 30,
-                    "spans": [
-                      {
-                        "offset": 1123,
-                        "length": 6
-                      }
-                    ],
-                    "confidence": 0.997,
-                    "source": "D(1,7.452,5.9672,7.9245,5.9672,7.9245,6.1321,7.452,6.1321)"
-                  }
-                }
-              },
-              {
-                "type": "object",
-                "valueObject": {
-                  "Description": {
-                    "type": "string",
-                    "valueString": "Printing Fee",
-                    "spans": [
-                      {
-                        "offset": 1182,
-                        "length": 12
-                      }
-                    ],
-                    "confidence": 0.987,
-                    "source": "D(1,2.3234,6.2688,3.1543,6.2688,3.1543,6.4426,2.3234,6.4426)"
-                  },
-                  "Amount": {
-                    "type": "number",
-                    "valueNumber": 10,
-                    "spans": [
-                      {
-                        "offset": 1259,
-                        "length": 6
-                      }
-                    ],
-                    "confidence": 0.998,
-                    "source": "D(1,7.4516,6.2612,7.9245,6.2612,7.9245,6.4319,7.4516,6.4319)"
-                  }
-                }
-              }
-            ]
+            "type": "array"
           }
         },
         "kind": "document",
