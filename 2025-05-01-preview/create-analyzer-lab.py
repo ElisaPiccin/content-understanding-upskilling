@@ -11,7 +11,7 @@ load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))
 def main():
 
     # Clear the console
-    os.system('cls' if os.name=='nt' else 'clear')
+    # os.system('cls' if os.name=='nt' else 'clear')
 
     try:
 
