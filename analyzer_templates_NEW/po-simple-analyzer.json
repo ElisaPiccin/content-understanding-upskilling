@@ -1,0 +1,22 @@
+{
+	"scenario": "prebuilt-documentAnalyzer",
+	"fieldSchema": {
+		"fields": {
+			"Company": {
+				"type": "string",
+				"method": "extract",
+				"description": "The company issuing the purchase order"
+			},
+			"VendorName": {
+				"type": "string",
+				"method": "extract",
+				"description": ""
+			},
+			"TotalAmount": {
+				"type": "number",
+				"method": "extract",
+				"description": "The total order amount to be paid, tax included"
+			}
+		}
+	}
+}
