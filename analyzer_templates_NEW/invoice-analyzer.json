@@ -1,0 +1,120 @@
+{
+	"scenario": "prebuilt-invoice",
+	"fieldSchema": {
+		"fields": {
+			"AmountDue": {
+				"type": "number",
+				"method": "extract",
+				"description": "Total amount due to the vendor"
+			},
+			"CustomerAddress": {
+				"type": "string",
+				"method": "extract",
+				"description": "Mailing address for the Customer"
+			},
+			"CustomerName": {
+				"type": "string",
+				"method": "extract",
+				"description": "Customer being invoiced"
+			},
+			"InvoiceDate": {
+				"type": "date",
+				"method": "extract",
+				"description": "Date the invoice was issued"
+			},
+			"InvoiceId": {
+				"type": "string",
+				"method": "extract",
+				"description": "ID for this specific invoice (often 'Invoice Number')"
+			},
+			"SubTotal": {
+				"type": "number",
+				"method": "extract",
+				"description": "Subtotal field identified on this invoice"
+			},
+			"TotalTax": {
+				"type": "number",
+				"method": "extract",
+				"description": "Total tax field identified on this invoice"
+			},
+			"VendorAddress": {
+				"type": "string",
+				"method": "extract",
+				"description": "Mailing address for the Vendor"
+			},
+			"ShippingFee": {
+				"type": "number",
+				"method": "extract",
+				"description": "Fee for shipping"
+			},
+			"VendorName": {
+				"type": "string",
+				"method": "extract",
+				"description": "Vendor who has created this invoice"
+			},
+			"VendorPhone": {
+				"type": "string",
+				"method": "extract",
+				"description": "Vendor telephone number"
+			},
+			"Items": {
+				"type": "array",
+				"method": "generate",
+				"description": "List of line items",
+				"items": {
+					"type": "object",
+					"method": "generate",
+					"description": "A single line item",
+					"properties": {
+						"ProductCode": {
+							"type": "string",
+							"method": "extract",
+							"description": "Product code, product number, or SKU associated with the specific line item"
+						},
+						"Description": {
+							"type": "string",
+							"method": "extract",
+							"description": "The text description for the invoice line item"
+						},
+						"Quantity": {
+							"type": "number",
+							"method": "extract",
+							"description": "The quantity for this invoice line item"
+						},
+						"UnitPrice": {
+							"type": "number",
+							"method": "extract",
+							"description": "The net price of one unit of this item"
+						},
+						"Unit": {
+							"type": "string",
+							"method": "extract",
+							"description": "The unit of the line item, e.g., hours, kg, lb"
+						}
+					}
+				}
+			},
+			"TaxDetails": {
+				"type": "array",
+				"method": "generate",
+				"description": "List of tax details",
+				"items": {
+					"type": "object",
+					"description": "A single tax detail",
+					"properties": {
+						"Rate": {
+							"type": "number",
+							"method": "extract",
+							"description": "The rate of the tax detail"
+						},
+						"Amount": {
+							"type": "number",
+							"method": "extract",
+							"description": "The amount of the tax detail"
+						}
+					}
+				}
+			}
+		}
+	}
+}
