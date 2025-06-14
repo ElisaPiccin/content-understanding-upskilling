@@ -166,3 +166,4 @@ cython_debug/
 .azure
 invoice_sample_search.pdf
 output.txt
+result.md
