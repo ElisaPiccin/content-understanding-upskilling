@@ -1,3 +1,7 @@
+# DISCLAIMER
+
+This repository has just transitioned to the new API version `2025-05-01-preview`. Please refer to files and contents with `_NEW` in their names for the new API version. As of 16/06/2025, some Content Understanding new features are still under development and only partially released by the product team.
+
 # content-understanding-upskilling
 The content of this repository is intended for **training purposes only**.
 
