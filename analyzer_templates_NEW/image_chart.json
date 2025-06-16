@@ -36,6 +36,16 @@
                   "rose": "In contrast to pie charts, the sectors are of equal angles and differ in how far each sector extends from the center of the circle."
               }
           },
+          "xAxisTitle": {
+              "type": "string",
+              "method": "generate",
+              "description": "Title of the x axis."
+          },
+          "yAxisTitle": {
+              "type": "string",
+              "method": "generate",
+              "description": "Title of the y axis."
+          },
           "TopicKeywords": {
               "type": "array",
               "method": "generate",
