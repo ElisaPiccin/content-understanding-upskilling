@@ -1,0 +1,96 @@
+{
+  "id": "eef2ded3-cc11-43f5-9fd3-32b32c6da21c",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "field-extraction-sample-b04d0a67-9e6a-4b07-9444-76b6730fb7bd",
+    "apiVersion": "2025-05-01-preview",
+    "createdAt": "2025-06-16T12:16:48Z",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "![image](image)\n",
+        "fields": {
+          "Title": {
+            "type": "string",
+            "valueString": "2023 Real GDP"
+          },
+          "ChartType": {
+            "type": "string",
+            "valueString": "bar"
+          },
+          "TopicKeywords": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "string",
+                "valueString": "GDP"
+              },
+              {
+                "type": "string",
+                "valueString": "economy"
+              },
+              {
+                "type": "string",
+                "valueString": "2023"
+              },
+              {
+                "type": "string",
+                "valueString": "pre-crisis trend"
+              },
+              {
+                "type": "string",
+                "valueString": "US"
+              },
+              {
+                "type": "string",
+                "valueString": "Japan"
+              },
+              {
+                "type": "string",
+                "valueString": "Canada"
+              },
+              {
+                "type": "string",
+                "valueString": "Euro Area"
+              },
+              {
+                "type": "string",
+                "valueString": "UK"
+              },
+              {
+                "type": "string",
+                "valueString": "G-20 EMs"
+              }
+            ]
+          },
+          "DetailedDescription": {
+            "type": "string",
+            "valueString": "The bar chart shows the percent deviation of real GDP from the pre-crisis trend for various regions in 2023. The United States has a positive deviation of approximately 1.0%, indicating growth above the pre-crisis trend. Japan shows a negative deviation of about -1.0%, while Canada and the Euro Area have deviations of around -1.5%. The United Kingdom has the largest negative deviation at approximately -3.5%. G-20 Emerging Markets (EMs) also show a significant negative deviation of about -2.5%."
+          },
+          "Summary": {
+            "type": "string",
+            "valueString": "In 2023, the United States is the only region with a positive deviation from the pre-crisis GDP trend, indicating economic growth. All other regions, including Japan, Canada, Euro Area, UK, and G-20 Emerging Markets, show negative deviations, with the UK experiencing the largest decline."
+          },
+          "MarkdownDataTable": {
+            "type": "string",
+            "valueString": "| Region    | Percent Deviation |\n|-----------|------------------|\n| US        | 1.0              |\n| Japan     | -1.0             |\n| Canada    | -1.5             |\n| Euro Area | -1.5             |\n| UK        | -3.5             |\n| G-20 EMs  | -2.5             |"
+          },
+          "FootnotesAndAnnotations": {
+            "type": "string",
+            "valueString": "(percent deviation from pre-crisis trend)"
+          }
+        },
+        "kind": "document",
+        "startPageNumber": 1,
+        "endPageNumber": 1,
+        "unit": "pixel",
+        "pages": [
+          {
+            "pageNumber": 1,
+            "spans": []
+          }
+        ]
+      }
+    ]
+  }
+}

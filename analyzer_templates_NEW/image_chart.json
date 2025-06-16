@@ -5,8 +5,6 @@
       "returnDetails": false
   },
   "fieldSchema": {
-      "name": "ChartAndDiagram",
-      "description": "Structured information from charts and diagrams.",
       "fields": {
           "Title": {
               "type": "string",
@@ -66,21 +64,6 @@
               "type": "string",
               "method": "generate",
               "description": "Underlying data of the chart in tabular markdown format. Give markdown output with valid syntax and accurate numbers, and fill any uncertain values with empty cells. If not applicable, output an empty string."
-          },
-          "AxisTitles": {
-              "type": "object",
-              "method": "generate",
-              "description": "Titles of the x and y axes.",
-              "properties": {
-                  "xAxisTitle": {
-                      "type": "string",
-                      "method": "generate"
-                  },
-                  "yAxisTitle": {
-                      "type": "string",
-                      "method": "generate"
-                  }
-              }
           },
           "FootnotesAndAnnotations": {
               "type": "string",
