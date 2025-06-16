@@ -1,0 +1,39 @@
+{
+  "id": "fd8180f0-ac18-4543-bc89-89b2e1499365",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "field-extraction-sample-67653b95-93e4-45e0-9660-339d118cf807",
+    "apiVersion": "2025-05-01-preview",
+    "createdAt": "2025-06-16T09:59:08Z",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "![image](image)\n",
+        "fields": {
+          "ContainsPerson": {
+            "type": "boolean",
+            "valueBoolean": true
+          },
+          "Outdoor": {
+            "type": "boolean",
+            "valueBoolean": true
+          },
+          "Description": {
+            "type": "string",
+            "valueString": "Two people are sitting on the grass in a park, taking a selfie."
+          }
+        },
+        "kind": "document",
+        "startPageNumber": 1,
+        "endPageNumber": 1,
+        "unit": "pixel",
+        "pages": [
+          {
+            "pageNumber": 1,
+            "spans": []
+          }
+        ]
+      }
+    ]
+  }
+}
