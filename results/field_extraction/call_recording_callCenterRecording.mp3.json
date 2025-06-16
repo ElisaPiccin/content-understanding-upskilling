@@ -1,0 +1,219 @@
+{
+  "id": "b14840cf-7860-49e8-8b01-6df3c8de9ba4",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "field-extraction-sample-4e27a08d-c70f-4822-8023-8e14c0eb9a3b",
+    "apiVersion": "2025-05-01-preview",
+    "createdAt": "2025-06-16T09:30:41Z",
+    "stringEncoding": "utf8",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "# Audio: 00:00.000 => 00:32.183\n\nTranscript\n```\nWEBVTT\n\n00:00.080 --> 00:00.640\n<v Agent>Good day.\n\n00:00.880 --> 00:02.240\n<v Agent>Welcome to Contoso.\n\n00:02.560 --> 00:03.760\n<v Agent>My name is John Doe.\n\n00:03.920 --> 00:05.120\n<v Agent>How can I help you today?\n\n00:05.440 --> 00:06.320\n<v Customer>Yes, good day.\n\n00:06.640 --> 00:08.160\n<v Customer>My name is Maria Smith.\n\n00:08.560 --> 00:11.360\n<v Customer>I would like to inquire about my current point balance.\n\n00:11.680 --> 00:12.560\n<v Agent>No problem.\n\n00:12.880 --> 00:13.920\n<v Agent>I am happy to help.\n\n00:14.240 --> 00:16.720\n<v Agent>I need your date of birth to confirm your identity.\n\n00:17.120 --> 00:19.600\n<v Customer>It is April 19th, 1988.\n\n00:20.000 --> 00:20.480\n<v Agent>Great.\n\n00:20.800 --> 00:24.160\n<v Agent>Your current point balance is 599 points.\n\n00:24.560 --> 00:26.160\n<v Agent>Do you need any more information?\n\n00:26.480 --> 00:27.200\n<v Customer>No, thank you.\n\n00:27.600 --> 00:28.320\n<v Customer>That was all.\n\n00:28.720 --> 00:29.280\n<v Customer>Goodbye.\n\n00:29.680 --> 00:31.920\n<v Agent>You're welcome, goodbye a contoso.\n```",
+        "fields": {
+          "Summary": {
+            "type": "string",
+            "valueString": "Maria Smith contacted Contoso to inquire about her current point balance. Agent John Doe assisted her by confirming her identity with her date of birth and informed her that she has 599 points. Maria thanked the agent and ended the call."
+          },
+          "Topics": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "string",
+                "valueString": "Point Balance Inquiry"
+              },
+              {
+                "type": "string",
+                "valueString": "Identity Confirmation"
+              }
+            ]
+          },
+          "Companies": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "string",
+                "valueString": "Contoso"
+              }
+            ]
+          },
+          "People": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "Name": {
+                    "type": "string",
+                    "valueString": "John Doe"
+                  },
+                  "Role": {
+                    "type": "string",
+                    "valueString": "Agent"
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Name": {
+                    "type": "string",
+                    "valueString": "Maria Smith"
+                  },
+                  "Role": {
+                    "type": "string",
+                    "valueString": "Customer"
+                  }
+                }
+              }
+            ]
+          },
+          "Sentiment": {
+            "type": "string",
+            "valueString": "Neutral"
+          },
+          "Categories": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "string",
+                "valueString": "Business"
+              }
+            ]
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 0,
+        "endTimeMs": 32183,
+        "transcriptPhrases": [
+          {
+            "speaker": "Agent",
+            "startTimeMs": 80,
+            "endTimeMs": 640,
+            "text": "Good day.",
+            "words": []
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 880,
+            "endTimeMs": 2240,
+            "text": "Welcome to Contoso.",
+            "words": []
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 2560,
+            "endTimeMs": 3760,
+            "text": "My name is John Doe.",
+            "words": []
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 3920,
+            "endTimeMs": 5120,
+            "text": "How can I help you today?",
+            "words": []
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 5440,
+            "endTimeMs": 6320,
+            "text": "Yes, good day.",
+            "words": []
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 6640,
+            "endTimeMs": 8160,
+            "text": "My name is Maria Smith.",
+            "words": []
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 8560,
+            "endTimeMs": 11360,
+            "text": "I would like to inquire about my current point balance.",
+            "words": []
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 11680,
+            "endTimeMs": 12560,
+            "text": "No problem.",
+            "words": []
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 12880,
+            "endTimeMs": 13920,
+            "text": "I am happy to help.",
+            "words": []
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 14240,
+            "endTimeMs": 16720,
+            "text": "I need your date of birth to confirm your identity.",
+            "words": []
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 17120,
+            "endTimeMs": 19600,
+            "text": "It is April 19th, 1988.",
+            "words": []
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 20000,
+            "endTimeMs": 20480,
+            "text": "Great.",
+            "words": []
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 20800,
+            "endTimeMs": 24160,
+            "text": "Your current point balance is 599 points.",
+            "words": []
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 24560,
+            "endTimeMs": 26160,
+            "text": "Do you need any more information?",
+            "words": []
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 26480,
+            "endTimeMs": 27200,
+            "text": "No, thank you.",
+            "words": []
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 27600,
+            "endTimeMs": 28320,
+            "text": "That was all.",
+            "words": []
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 28720,
+            "endTimeMs": 29280,
+            "text": "Goodbye.",
+            "words": []
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 29680,
+            "endTimeMs": 31920,
+            "text": "You're welcome, goodbye a contoso.",
+            "words": []
+          }
+        ]
+      }
+    ]
+  }
+}

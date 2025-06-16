@@ -1,0 +1,141 @@
+{
+  "id": "825f4376-4163-4a73-b56d-baefd14ab4e2",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "field-extraction-sample-ab720704-7fc2-4e64-99d3-29fa7bebf185",
+    "apiVersion": "2025-05-01-preview",
+    "createdAt": "2025-06-16T09:06:39Z",
+    "stringEncoding": "utf8",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "# Video: 00:00.000 => 00:43.866\nWidth: 1080\nHeight: 608\n\nTranscript\n```\nWEBVTT\n\n00:01.360 --> 00:06.640\n<Speaker 1>When it comes to the neural TTS, in order to get a good voice, it's better to have good data.\n\n00:07.120 --> 00:13.320\n<Speaker 2>To achieve that, we build a universal TTS model based on 3,000 hours of data.\n\n00:13.440 --> 00:23.760\n<Speaker 1>We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm.\n\n00:24.040 --> 00:29.120\n<Speaker 3>What we liked about cognitive services offerings were that they had a much higher fidelity.\n\n00:29.600 --> 00:32.880\n<Speaker 3>And they sounded a lot more like an actual human voice.\n\n00:33.680 --> 00:37.200\n<Speaker 4>Orlando ground 95555, requesting the end of pushback.\n\n00:38.520 --> 00:41.280\n<Speaker 4>95555, request to end pushback received.\n```\n\nKey Frames\n- 00:00.726 ![](keyFrame.726.jpg)\n- 00:02.046 ![](keyFrame.2046.jpg)\n- 00:02.640 ![](keyFrame.2640.jpg)\n- 00:04.059 ![](keyFrame.4059.jpg)\n- 00:04.884 ![](keyFrame.4884.jpg)\n- 00:05.709 ![](keyFrame.5709.jpg)\n- 00:06.534 ![](keyFrame.6534.jpg)\n- 00:07.788 ![](keyFrame.7788.jpg)\n- 00:08.976 ![](keyFrame.8976.jpg)\n- 00:09.768 ![](keyFrame.9768.jpg)\n- 00:10.560 ![](keyFrame.10560.jpg)\n- 00:12.078 ![](keyFrame.12078.jpg)\n- 00:12.804 ![](keyFrame.12804.jpg)\n- 00:14.190 ![](keyFrame.14190.jpg)\n- 00:14.817 ![](keyFrame.14817.jpg)\n- 00:15.444 ![](keyFrame.15444.jpg)\n- 00:16.929 ![](keyFrame.16929.jpg)\n- 00:17.754 ![](keyFrame.17754.jpg)\n- 00:18.579 ![](keyFrame.18579.jpg)\n- 00:20.196 ![](keyFrame.20196.jpg)\n- 00:20.955 ![](keyFrame.20955.jpg)\n- 00:21.714 ![](keyFrame.21714.jpg)\n- 00:22.473 ![](keyFrame.22473.jpg)\n- 00:23.232 ![](keyFrame.23232.jpg)\n- 00:24.816 ![](keyFrame.24816.jpg)\n- 00:25.674 ![](keyFrame.25674.jpg)\n- 00:26.532 ![](keyFrame.26532.jpg)\n- 00:27.390 ![](keyFrame.27390.jpg)\n- 00:28.248 ![](keyFrame.28248.jpg)\n- 00:29.106 ![](keyFrame.29106.jpg)\n- 00:30.822 ![](keyFrame.30822.jpg)\n- 00:31.614 ![](keyFrame.31614.jpg)\n- 00:32.406 ![](keyFrame.32406.jpg)\n- 00:33.891 ![](keyFrame.33891.jpg)\n- 00:34.584 ![](keyFrame.34584.jpg)\n- 00:36.069 ![](keyFrame.36069.jpg)\n- 00:36.861 ![](keyFrame.36861.jpg)\n- 00:38.181 ![](keyFrame.38181.jpg)\n- 00:38.676 ![](keyFrame.38676.jpg)\n- 00:39.897 ![](keyFrame.39897.jpg)\n- 00:40.590 ![](keyFrame.40590.jpg)\n- 00:41.283 ![](keyFrame.41283.jpg)\n- 00:42.636 ![](keyFrame.42636.jpg)\n- 00:43.230 ![](keyFrame.43230.jpg)",
+        "fields": {
+          "Sentiment": {
+            "type": "string",
+            "valueString": "Positive"
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 0,
+        "endTimeMs": 43866,
+        "width": 1080,
+        "height": 608,
+        "KeyFrameTimesMs": [
+          726,
+          2046,
+          2640,
+          4059,
+          4884,
+          5709,
+          6534,
+          7788,
+          8976,
+          9768,
+          10560,
+          12078,
+          12804,
+          14190,
+          14817,
+          15444,
+          16929,
+          17754,
+          18579,
+          20196,
+          20955,
+          21714,
+          22473,
+          23232,
+          24816,
+          25674,
+          26532,
+          27390,
+          28248,
+          29106,
+          30822,
+          31614,
+          32406,
+          33891,
+          34584,
+          36069,
+          36861,
+          38181,
+          38676,
+          39897,
+          40590,
+          41283,
+          42636,
+          43230
+        ],
+        "transcriptPhrases": [
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 1360,
+            "endTimeMs": 6640,
+            "text": "When it comes to the neural TTS, in order to get a good voice, it's better to have good data.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 2",
+            "startTimeMs": 7120,
+            "endTimeMs": 13320,
+            "text": "To achieve that, we build a universal TTS model based on 3,000 hours of data.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 13440,
+            "endTimeMs": 23760,
+            "text": "We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 3",
+            "startTimeMs": 24040,
+            "endTimeMs": 29120,
+            "text": "What we liked about cognitive services offerings were that they had a much higher fidelity.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 3",
+            "startTimeMs": 29600,
+            "endTimeMs": 32880,
+            "text": "And they sounded a lot more like an actual human voice.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 4",
+            "startTimeMs": 33680,
+            "endTimeMs": 37200,
+            "text": "Orlando ground 95555, requesting the end of pushback.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 4",
+            "startTimeMs": 38520,
+            "endTimeMs": 41280,
+            "text": "95555, request to end pushback received.",
+            "words": []
+          }
+        ],
+        "cameraShotTimesMs": [
+          1467,
+          3233,
+          7367,
+          8200,
+          11367,
+          13567,
+          16100,
+          19433,
+          23967,
+          30033,
+          33200,
+          35267,
+          37700,
+          39200,
+          42033
+        ]
+      }
+    ]
+  }
+}
