@@ -1,0 +1,205 @@
+{
+  "id": "2b9d3b86-afa7-4645-bb56-aa23c2a54ede",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "prebuilt-videoAnalyzer",
+    "apiVersion": "2025-05-01-preview",
+    "createdAt": "2025-06-16T08:20:55Z",
+    "stringEncoding": "utf8",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "# Video: 00:00.000 => 00:30.200\nWidth: 1234\nHeight: 694\n\n## Segment 1: 00:00.000 => 00:26.796\nThe video begins with a Power BI interface displaying the title 'How Export Data to Excel in Power BI'. The presenter explains the process of exporting data from Power BI to Excel. Initially, the table view is shown with various columns and rows. The presenter navigates to the report view and creates a table with the desired columns. The process of exporting data is demonstrated by clicking on the three dots in the corner and selecting 'export data'. The presenter names the file and clicks save.\n\nTranscript\n```\nWEBVTT\n\n00:00.240 --> 00:01.520\n<Speaker 1>Welcome back to interactive training.\n\n00:01.760 --> 00:05.280\n<Speaker 1>In this session, we'll take a look at how to export data to Excel from Power BI.\n\n00:05.520 --> 00:09.280\n<Speaker 1>In the table view, I have all these columns and rows that I'd like to export to Excel.\n\n00:10.320 --> 00:13.360\n<Speaker 1>I can't export it from the table view, so navigate to the report view.\n\n00:13.760 --> 00:16.640\n<Speaker 1>Let's create a table with all of these columns.\n\n00:17.280 --> 00:23.600\n<Speaker 1>Now that I have a table built, click on the top three dots in the corner and click export data.\n\n00:25.480 --> 00:26.520\n<Speaker 1>Name it and click save.\n\n00:26.520 --> 00:29.360\n<Speaker 1>If you enjoy this content, make sure to like and subscribe for more.\n```\n\nKey Frames\n- 00:00.924 ![](keyFrame.924.jpg)\n- 00:01.848 ![](keyFrame.1848.jpg)\n- 00:02.772 ![](keyFrame.2772.jpg)\n- 00:03.696 ![](keyFrame.3696.jpg)\n- 00:04.620 ![](keyFrame.4620.jpg)\n- 00:05.544 ![](keyFrame.5544.jpg)\n- 00:06.468 ![](keyFrame.6468.jpg)\n- 00:07.392 ![](keyFrame.7392.jpg)\n- 00:08.316 ![](keyFrame.8316.jpg)\n- 00:09.240 ![](keyFrame.9240.jpg)\n- 00:10.164 ![](keyFrame.10164.jpg)\n- 00:11.088 ![](keyFrame.11088.jpg)\n- 00:12.012 ![](keyFrame.12012.jpg)\n- 00:12.936 ![](keyFrame.12936.jpg)\n- 00:13.860 ![](keyFrame.13860.jpg)\n- 00:14.784 ![](keyFrame.14784.jpg)\n- 00:15.708 ![](keyFrame.15708.jpg)\n- 00:16.632 ![](keyFrame.16632.jpg)\n- 00:17.556 ![](keyFrame.17556.jpg)\n- 00:18.480 ![](keyFrame.18480.jpg)\n- 00:19.404 ![](keyFrame.19404.jpg)\n- 00:20.328 ![](keyFrame.20328.jpg)\n- 00:21.252 ![](keyFrame.21252.jpg)\n- 00:22.176 ![](keyFrame.22176.jpg)\n- 00:23.100 ![](keyFrame.23100.jpg)\n- 00:24.024 ![](keyFrame.24024.jpg)\n- 00:24.948 ![](keyFrame.24948.jpg)\n- 00:25.872 ![](keyFrame.25872.jpg)\n- 00:26.796 ![](keyFrame.26796.jpg)\n\n## Segment 2: 00:26.796 => 00:29.533\nThe video concludes with a reminder to like and subscribe for more content. The Power BI interface is still visible, showing the exported table.\n\nTranscript\n```\nWEBVTT\n\n00:26.520 --> 00:29.360\n<Speaker 1>If you enjoy this content, make sure to like and subscribe for more.\n```\n\nKey Frames\n- 00:26.796 ![](keyFrame.26796.jpg)\n- 00:27.720 ![](keyFrame.27720.jpg)\n\n## Segment 3: 00:29.533 => 00:30.200\nThe video ends with a suggestion for the next video, displaying a thumbnail of a neon light effect rectangular tunnel animation.\n\n\n\nKey Frames\n- 00:29.865 ![](keyFrame.29865.jpg)",
+        "fields": {
+          "Segments": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "SegmentId": {
+                    "type": "string",
+                    "valueString": "1"
+                  },
+                  "StartTimeMs": {
+                    "type": "integer",
+                    "valueInteger": 0
+                  },
+                  "EndTimeMs": {
+                    "type": "integer",
+                    "valueInteger": 26796
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "The video begins with a Power BI interface displaying the title 'How Export Data to Excel in Power BI'. The presenter explains the process of exporting data from Power BI to Excel. Initially, the table view is shown with various columns and rows. The presenter navigates to the report view and creates a table with the desired columns. The process of exporting data is demonstrated by clicking on the three dots in the corner and selecting 'export data'. The presenter names the file and clicks save."
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "SegmentId": {
+                    "type": "string",
+                    "valueString": "2"
+                  },
+                  "StartTimeMs": {
+                    "type": "integer",
+                    "valueInteger": 26796
+                  },
+                  "EndTimeMs": {
+                    "type": "integer",
+                    "valueInteger": 29533
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "The video concludes with a reminder to like and subscribe for more content. The Power BI interface is still visible, showing the exported table."
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "SegmentId": {
+                    "type": "string",
+                    "valueString": "3"
+                  },
+                  "StartTimeMs": {
+                    "type": "integer",
+                    "valueInteger": 29533
+                  },
+                  "EndTimeMs": {
+                    "type": "integer",
+                    "valueInteger": 30200
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "The video ends with a suggestion for the next video, displaying a thumbnail of a neon light effect rectangular tunnel animation."
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 0,
+        "endTimeMs": 30200,
+        "width": 1234,
+        "height": 694,
+        "KeyFrameTimesMs": [
+          924,
+          1848,
+          2772,
+          3696,
+          4620,
+          5544,
+          6468,
+          7392,
+          8316,
+          9240,
+          10164,
+          11088,
+          12012,
+          12936,
+          13860,
+          14784,
+          15708,
+          16632,
+          17556,
+          18480,
+          19404,
+          20328,
+          21252,
+          22176,
+          23100,
+          24024,
+          24948,
+          25872,
+          26796,
+          27720,
+          29865
+        ],
+        "transcriptPhrases": [
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 240,
+            "endTimeMs": 1520,
+            "text": "Welcome back to interactive training.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 1760,
+            "endTimeMs": 5280,
+            "text": "In this session, we'll take a look at how to export data to Excel from Power BI.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 5520,
+            "endTimeMs": 9280,
+            "text": "In the table view, I have all these columns and rows that I'd like to export to Excel.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 10320,
+            "endTimeMs": 13360,
+            "text": "I can't export it from the table view, so navigate to the report view.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 13760,
+            "endTimeMs": 16640,
+            "text": "Let's create a table with all of these columns.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 17280,
+            "endTimeMs": 23600,
+            "text": "Now that I have a table built, click on the top three dots in the corner and click export data.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 25480,
+            "endTimeMs": 26520,
+            "text": "Name it and click save.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 26520,
+            "endTimeMs": 29360,
+            "text": "If you enjoy this content, make sure to like and subscribe for more.",
+            "words": []
+          }
+        ],
+        "cameraShotTimesMs": [
+          29533
+        ],
+        "segments": [
+          {
+            "startTimeMs": 0,
+            "endTimeMs": 26796,
+            "description": "The video begins with a Power BI interface displaying the title 'How Export Data to Excel in Power BI'. The presenter explains the process of exporting data from Power BI to Excel. Initially, the table view is shown with various columns and rows. The presenter navigates to the report view and creates a table with the desired columns. The process of exporting data is demonstrated by clicking on the three dots in the corner and selecting 'export data'. The presenter names the file and clicks save.",
+            "segmentId": "1"
+          },
+          {
+            "startTimeMs": 26796,
+            "endTimeMs": 29533,
+            "description": "The video concludes with a reminder to like and subscribe for more content. The Power BI interface is still visible, showing the exported table.",
+            "segmentId": "2"
+          },
+          {
+            "startTimeMs": 29533,
+            "endTimeMs": 30200,
+            "description": "The video ends with a suggestion for the next video, displaying a thumbnail of a neon light effect rectangular tunnel animation.",
+            "segmentId": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

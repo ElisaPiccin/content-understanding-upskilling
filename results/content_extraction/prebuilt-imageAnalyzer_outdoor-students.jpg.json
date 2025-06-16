@@ -1,0 +1,31 @@
+{
+  "id": "c862aa72-2670-44e3-b2b9-444fc37c5e7e",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "prebuilt-imageAnalyzer",
+    "apiVersion": "2025-05-01-preview",
+    "createdAt": "2025-06-16T07:36:03Z",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "![image](image)\n",
+        "fields": {
+          "Summary": {
+            "type": "string",
+            "valueString": "The image depicts a group of young people sitting on a grassy area in what appears to be a park or a campus setting. Two individuals are seated on the grass, with one holding a smartphone, possibly taking a selfie or a photo. They are surrounded by lush greenery, including trees and bushes, and there are other people walking in the background, suggesting a lively and social environment. The scene conveys a relaxed and casual atmosphere, typical of outdoor leisure activities."
+          }
+        },
+        "kind": "document",
+        "startPageNumber": 1,
+        "endPageNumber": 1,
+        "unit": "pixel",
+        "pages": [
+          {
+            "pageNumber": 1,
+            "spans": []
+          }
+        ]
+      }
+    ]
+  }
+}

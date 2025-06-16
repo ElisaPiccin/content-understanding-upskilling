@@ -1,0 +1,244 @@
+{
+  "id": "644ff686-623d-45d1-9c7e-d584907e8ea8",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "prebuilt-audioAnalyzer",
+    "apiVersion": "2025-05-01-preview",
+    "createdAt": "2025-06-16T07:18:59Z",
+    "stringEncoding": "utf8",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "# Audio: 00:00.000 => 01:54.670\n\nTranscript\n```\nWEBVTT\n\n00:00.080 --> 00:02.160\n<v Speaker 1>Thank you for calling Woodgrove Travel.\n\n00:02.960 --> 00:04.560\n<v Speaker 1>My name is Isabella Taylor.\n\n00:05.280 --> 00:06.880\n<v Speaker 1>How may I assist you today?\n\n00:07.680 --> 00:10.240\n<v Speaker 2>Hi Isabella, my name is John Smith.\n\n00:11.040 --> 00:17.920\n<v Speaker 2>I recently traveled from New York City to Los Angeles on a business trip, and I had a terrible experience with my flight.\n\n00:18.720 --> 00:20.880\n<v Speaker 1>I'm sorry to hear that, John.\n\n00:21.680 --> 00:27.200\n<v Speaker 1>Could you please provide me with the details of your flight, such as the airline name and flight number?\n\n00:28.000 --> 00:31.360\n<v Speaker 2>I flew with Contoso Airways on flight CA123.\n\n00:32.080 --> 00:35.120\n<v Speaker 2>The departure date was March 25th at 9 a.m.\n\n00:35.840 --> 00:39.040\n<v Speaker 1>I apologize for any inconvenience you experienced.\n\n00:39.760 --> 00:43.440\n<v Speaker 1>Could you please let me know what specifically went wrong during your flight?\n\n00:44.160 --> 00:48.320\n<v Speaker 2>The flight was delayed for several hours due to technical issues with the aircraft.\n\n00:49.040 --> 00:52.160\n<v Speaker 2>It caused me to miss an important meeting in Los Angeles.\n\n00:52.960 --> 00:56.480\n<v Speaker 1>I understand how frustrating that must have been, John.\n\n00:57.280 --> 01:00.160\n<v Speaker 1>Let me check what options we have to address this issue.\n\n01:01.040 --> 01:02.560\n<v Speaker 1>Please hold on for a moment.\n\n01:03.360 --> 01:04.960\n<v Speaker 2>Thank you, Isabella.\n\n01:05.760 --> 01:07.200\n<v Speaker 2>I appreciate your help.\n\n01:08.000 --> 01:13.840\n<v Speaker 1>I've looked into your situation, John, and I apologize for the inconvenience caused by the flight delay.\n\n01:14.640 --> 01:22.320\n<v Speaker 1>I have reached out to Contoso Airways on your behalf, and they have offered to provide you with a partial refund for the inconvenience caused.\n\n01:23.040 --> 01:25.120\n<v Speaker 2>That's great to hear, Isabella.\n\n01:26.000 --> 01:29.040\n<v Speaker 2>I really appreciate your assistance in resolving this matter.\n\n01:29.840 --> 01:30.480\n<v Speaker 2>Thank you.\n\n01:31.200 --> 01:32.880\n<v Speaker 1>You're welcome, John.\n\n01:33.680 --> 01:34.960\n<v Speaker 1>I'm glad I could help.\n\n01:35.760 --> 01:38.000\n<v Speaker 1>Is there anything else I can assist you with?\n\n01:38.800 --> 01:40.480\n<v Speaker 2>No, that's all for now.\n\n01:41.280 --> 01:44.400\n<v Speaker 2>Thank you again for your excellent service, Isabella.\n\n01:45.200 --> 01:47.040\n<v Speaker 1>It was my pleasure, John.\n\n01:47.840 --> 01:52.240\n<v Speaker 1>If you need any further assistance in the future, don't hesitate to reach out.\n\n01:53.040 --> 01:54.000\n<v Speaker 1>Have a great day!\n```",
+        "fields": {
+          "Summary": {
+            "type": "string",
+            "valueString": "John Smith contacted Woodgrove Travel to report a negative experience with his flight from New York City to Los Angeles on Contoso Airways flight CA123. The flight was delayed due to technical issues, causing him to miss an important meeting. Isabella Taylor, the customer service representative, apologized for the inconvenience and reached out to Contoso Airways, securing a partial refund for John. John expressed gratitude for Isabella's assistance, and the conversation concluded with Isabella offering further help if needed."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 0,
+        "endTimeMs": 114670,
+        "transcriptPhrases": [
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 80,
+            "endTimeMs": 2160,
+            "text": "Thank you for calling Woodgrove Travel.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 2960,
+            "endTimeMs": 4560,
+            "text": "My name is Isabella Taylor.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 5280,
+            "endTimeMs": 6880,
+            "text": "How may I assist you today?",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 2",
+            "startTimeMs": 7680,
+            "endTimeMs": 10240,
+            "text": "Hi Isabella, my name is John Smith.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 2",
+            "startTimeMs": 11040,
+            "endTimeMs": 17920,
+            "text": "I recently traveled from New York City to Los Angeles on a business trip, and I had a terrible experience with my flight.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 18720,
+            "endTimeMs": 20880,
+            "text": "I'm sorry to hear that, John.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 21680,
+            "endTimeMs": 27200,
+            "text": "Could you please provide me with the details of your flight, such as the airline name and flight number?",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 2",
+            "startTimeMs": 28000,
+            "endTimeMs": 31360,
+            "text": "I flew with Contoso Airways on flight CA123.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 2",
+            "startTimeMs": 32080,
+            "endTimeMs": 35120,
+            "text": "The departure date was March 25th at 9 a.m.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 35840,
+            "endTimeMs": 39040,
+            "text": "I apologize for any inconvenience you experienced.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 39760,
+            "endTimeMs": 43440,
+            "text": "Could you please let me know what specifically went wrong during your flight?",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 2",
+            "startTimeMs": 44160,
+            "endTimeMs": 48320,
+            "text": "The flight was delayed for several hours due to technical issues with the aircraft.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 2",
+            "startTimeMs": 49040,
+            "endTimeMs": 52160,
+            "text": "It caused me to miss an important meeting in Los Angeles.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 52960,
+            "endTimeMs": 56480,
+            "text": "I understand how frustrating that must have been, John.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 57280,
+            "endTimeMs": 60160,
+            "text": "Let me check what options we have to address this issue.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 61040,
+            "endTimeMs": 62560,
+            "text": "Please hold on for a moment.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 2",
+            "startTimeMs": 63360,
+            "endTimeMs": 64960,
+            "text": "Thank you, Isabella.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 2",
+            "startTimeMs": 65760,
+            "endTimeMs": 67200,
+            "text": "I appreciate your help.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 68000,
+            "endTimeMs": 73840,
+            "text": "I've looked into your situation, John, and I apologize for the inconvenience caused by the flight delay.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 74640,
+            "endTimeMs": 82320,
+            "text": "I have reached out to Contoso Airways on your behalf, and they have offered to provide you with a partial refund for the inconvenience caused.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 2",
+            "startTimeMs": 83040,
+            "endTimeMs": 85120,
+            "text": "That's great to hear, Isabella.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 2",
+            "startTimeMs": 86000,
+            "endTimeMs": 89040,
+            "text": "I really appreciate your assistance in resolving this matter.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 2",
+            "startTimeMs": 89840,
+            "endTimeMs": 90480,
+            "text": "Thank you.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 91200,
+            "endTimeMs": 92880,
+            "text": "You're welcome, John.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 93680,
+            "endTimeMs": 94960,
+            "text": "I'm glad I could help.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 95760,
+            "endTimeMs": 98000,
+            "text": "Is there anything else I can assist you with?",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 2",
+            "startTimeMs": 98800,
+            "endTimeMs": 100480,
+            "text": "No, that's all for now.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 2",
+            "startTimeMs": 101280,
+            "endTimeMs": 104400,
+            "text": "Thank you again for your excellent service, Isabella.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 105200,
+            "endTimeMs": 107040,
+            "text": "It was my pleasure, John.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 107840,
+            "endTimeMs": 112240,
+            "text": "If you need any further assistance in the future, don't hesitate to reach out.",
+            "words": []
+          },
+          {
+            "speaker": "Speaker 1",
+            "startTimeMs": 113040,
+            "endTimeMs": 114000,
+            "text": "Have a great day!",
+            "words": []
+          }
+        ]
+      }
+    ]
+  }
+}
