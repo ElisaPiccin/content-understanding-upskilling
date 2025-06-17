@@ -1,0 +1,44 @@
+{
+	"baseAnalyzerId": "prebuilt-videoAnalyzer",
+	"fieldSchema": {
+		"fields": {
+			"ProductOrFeature": {
+				"type": "string",
+				"method": "generate",
+				"description": "The specific product or service that the video is treating."
+			},
+			"Problem": {
+				"type": "string",
+				"method": "generate",
+				"description": "Summary of the issue addressed."
+			},
+			"Step": {
+				"type": "array",
+				"items": {
+					"type": "object",
+					"properties": {
+						"StepTitle": {
+							"type": "string",
+							"method": "generate",
+							"description": ""
+						},
+						"Instructions": {
+							"type": "string",
+							"method": "generate",
+							"description": ""
+						},
+						"Timestamp": {
+							"type": "string",
+							"method": "generate",
+							"description": ""
+						}
+					},
+					"method": "extract"
+				},
+				"method": "generate",
+				"description": ""
+			}
+		},
+		"definitions": {}
+	}
+}
