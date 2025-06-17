@@ -1,0 +1,79 @@
+{
+	"scenario": "prebuilt-documentAnalyzer",
+	"fieldSchema": {
+		"fields": {
+			"LineItems": {
+				"type": "array",
+				"method": "generate",
+				"description": "Invoice line item. It should be extracted either from invoice or PO. ",
+				"items": {
+					"type": "object",
+					"method": "extract",
+					"properties": {
+						"ItemName": {
+							"type": "string",
+							"method": "generate",
+							"description": "The text description for the invoice line item"
+						},
+						"Quantity": {
+							"type": "integer",
+							"method": "generate",
+							"description": "The quantity for this invoice line item"
+						},
+						"POMatch": {
+							"type": "string",
+							"method": "classify",
+							"description": "Please classify the line item based on match with the PO",
+							"enum": [
+								"Match",
+								"PartialMatch",
+								"OnlyInPO"
+							],
+							"enumDescriptions": {
+								"OnlyInPO": "Line item only present in the PO but not in the invoice",
+								"Match": "Line item matched to PO exactly",
+								"PartialMatch": "Line item partially matched to PO, provide details in MatchingInconsistency field "
+							}
+						},
+						"MatchingInconsistency": {
+							"type": "string",
+							"method": "generate",
+							"description": "Please provide explanations of the inconsistencies if POMatch is PartialMatch"
+						}
+					}
+				}
+			},
+			"InvoiceId": {
+				"type": "string",
+				"method": "generate",
+				"description": ""
+			},
+			"PONumber": {
+				"type": "string",
+				"method": "generate",
+				"description": ""
+			},
+			"PaymentTermsInconsistencies": {
+				"type": "array",
+				"method": "generate",
+				"description": "List all areas of inconsistency identified in the invoice with corresponding evidence.",
+				"items": {
+					"type": "object",
+					"method": "extract",
+					"properties": {
+						"Evidence": {
+							"type": "string",
+							"method": "generate",
+							"description": "Evidence or reasoning for the inconsistency in the invoice."
+						},
+						"InvoiceField": {
+							"type": "string",
+							"method": "generate",
+							"description": "Invoice field or the aspect that is inconsistent with the contract."
+						}
+					}
+				}
+			}
+		}
+	}
+}
