@@ -1,0 +1,29 @@
+{
+    "output": {
+        "PaymentTermsInconsistencies": [
+            {
+                "Evidence": "The invoice states 'Due on contract signing' implying full payment at signing, while the contract specifies three separate installments: $20,000 at signing, $7,000 upon delivery, and $2,900 upon completion.",
+                "InvoiceField": "Payment Terms/Invoice Payment Due"
+            }
+        ],
+        "ItemInconsistencies": [
+            {
+                "Evidence": "The invoice lists a 'Vertical Platform Lift (Savaria V1504)' and details items that differ significantly from the contract's requirement for an 'AscendPro VPX200' with specific custom cab dimensions, door features, and integrated components.",
+                "InvoiceField": "Item Descriptions and Specifications"
+            }
+        ],
+        "BillingLogisticsInconsistencies": [
+            {
+                "Evidence": "The invoice ship-to details and customer information list Fabrikam Construction at 61 S 34th Street, Dayton, FL, which conflicts with the contract that identifies Fabrikam Inc. for the Bayfront Animal Clinic project located at 811 Ocean Drive, Suite 405, Tampa, FL.",
+                "InvoiceField": "Billing and Shipping Information"
+            }
+        ],
+        "PaymentScheduleInconsistencies": [
+            {
+                "Evidence": "The invoice demands the full amount of $29,900 due at contract signing, whereas the contract outlines a staged payment schedule tied to specific milestones (signing, delivery, and completion).",
+                "InvoiceField": "Payment Schedule Details"
+            }
+        ],
+        "TaxOrDiscountInconsistencies": []
+    }
+}
